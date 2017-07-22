@@ -18,4 +18,4 @@ C:\>net start ServiceName
 
 ## References
 
-[https://www.nostarch.com/malware]
+* [Practical Malware Analysis](https://www.nostarch.com/malware)
