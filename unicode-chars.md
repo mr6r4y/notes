@@ -5,6 +5,7 @@
 Meaning | Char
 --------|-----
 Check Mark | ✔
+Cross Mark | ❌
 
 ## Greek Alphabet
 
