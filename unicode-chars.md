@@ -34,3 +34,9 @@ Phi | φ | Φ
 Chi | χ | Χ
 Psi | ψ | Ψ
 Omega | ω | Ω
+
+
+## References
+
+* http://xahlee.info/comp/unicode_index.html
+* https://unix.stackexchange.com/questions/126630/creating-diagrams-in-ascii
