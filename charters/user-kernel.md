@@ -20,6 +20,21 @@ to discover:
 
 Read [Linux Inside: Booting: First steps in the kernel setup](https://0xax.gitbooks.io/linux-insides/content/Booting/linux-bootstrap-2.html)
 
+### 1.3 ✔
+
+Read [Minimal Boot Loader](https://www.cs.cmu.edu/~410/doc/minimal_boot.pdf)
+
+#### Note
+
+This is for firmware writers. The important stuff for `0xfffffff0` I know already.
+
+### 1.4
+
+From [Intel Manual vol 3A](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-vol-3a-part-1-manual.pdf)
+read:
+
+* 9.9 MODE SWITCHING
+* Chapter 2
 
 ### 1.1 ✔
 
@@ -34,29 +49,20 @@ Sequence of Booting:
 |    CPU - Real-mode     |
 '------------------------'
              |
-             |
-             |
              v
 .------------------------.
 |       BIOS/UEFI        |
 '------------------------'
-             |
-             |
              |
              v
 .------------------------.
 |       Bootloader       |
 '------------------------'
              |
-             |
-             |
              v
 .------------------------.
 |         Kernel         |
 '------------------------'
-             |
-             |
-             |
              |
              v
 .------------------------.
@@ -133,4 +139,13 @@ to discover:
 ### 1.1.5
 
 Check what `testb` instruction does in Intel Manuals
+
+
+### 2
+
+Read [X86 Assembly/16 32 and 64 Bits: The A20 Gate Saga](https://en.wikibooks.org/wiki/X86_Assembly/16_32_and_64_Bits#The_A20_Gate_Saga)
+
+#### Note
+
+
 
