@@ -10,3 +10,8 @@
 * Finish [User-Kernel Charters](charters/user-kernel.md)
 * Finish with [maya_crackme](https://github.com/mr6r4y/re-write-ups/tree/master/crackmes/maya_crackmes/solution/hardest)
 * Reorganize HClub repo
+
+---
+
+* Read through [KVM Book](https://www.amazon.com/Mastering-Virtualization-Humble-Devassy-Chirammal/dp/1784399051)
+* Make Ansible roles for installing and configuring KVM and QEMU at [ansible-infra](https://github.com/mr6r4y/ansible-infra)
