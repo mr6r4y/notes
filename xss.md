@@ -10,7 +10,7 @@ Symbol/Abbr. | Description
 X -> Y | X has resulted in Y
 X &-> Y |X depends on Y
 
-## XSS in `<input> ../>` attribute
+## XSS in `<input ../>` attribute
 
 Use `onfocus` event with the `autofocus` HTML5 attribute:
 
