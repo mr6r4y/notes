@@ -28,3 +28,4 @@ Change the `<input .. />` type to `image` with adding `type=image` - [Input imag
 URL | Description
 ----|------------
 [HTML Purifier](http://htmlpurifier.org/live/smoketests/xssAttacks.php) | Very good reference for XSS tricks
+[XSSChallengeWiki](https://github.com/cure53/XSSChallengeWiki/wiki/Older-Challenges-and-Write-Ups) | Tough challenges and a big source of XSS wisdom
