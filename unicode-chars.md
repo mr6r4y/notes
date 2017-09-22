@@ -9,7 +9,7 @@ Cross Mark | ❌
 
 ## Greek Alphabet
 
-Name | Lowercase Char | Uppercase Char
+Name | Lowercase Letter | Uppercase Letter
 -----|----------------|---------------
 Alpha | α | Α
 Beta | β | Β
@@ -36,8 +36,106 @@ Chi | χ | Χ
 Psi | ψ | Ψ
 Omega | ω | Ω
 
+## Hebrew Alphabet
+
+Name | Letter
+-----|-------
+Alef | א
+Bet | ב
+Gimel | ג
+Dalet | ד
+He | ה
+Vav | ו
+Zayin | ז
+Het | ח
+Tet | ט
+Yod | י
+Final Kaf | ך
+Kaf | כ
+Lamed | ל
+Final Mem | ם
+Mem | מ
+Final Nun | ן
+Nun | נ
+Samekh | ס
+Ayin | ע
+Final Pe | ף
+Pe | פ
+Final Tsadi | ץ
+Tsadi | צ
+Qof | ק
+Resh | ר
+Shin | ש
+Tav | ת
+
+## List of Greek Gods
+
+ * Achelous
+ * Aeolus
+ * Aether
+ * Alastor
+ * Apollo
+ * Ares
+ * Aristaeus
+ * Asclepius
+ * Atlas
+ * Attis
+ * Boreas
+ * Caerus
+ * Castor
+ * Cerus
+ * Chaos
+ * Charon
+ * Cronos
+ * Crios
+ * Cronus
+ * Dinlas
+ * Dionysus
+ * Erebus
+ * Eros
+ * Eurus
+ * Glaucus
+ * Hades
+ * Helios
+ * Hephaestus
+ * Heracles
+ * Hermes
+ * Hesperus
+ * Hymenaios
+ * Hypnos
+ * Kratos
+ * Momus
+ * Morpheus
+ * Nereus
+ * Notus
+ * Oceanus
+ * Pallas
+ * Pan
+ * Phosphorus
+ * Plutus
+ * Pollux
+ * Pontus
+ * Poseidon
+ * Priapus
+ * Pricus
+ * Prometheus
+ * Proteus
+ * Tartarus
+ * Thanatos
+ * Triton
+ * Typhon
+ * Uranus
+ * Zelus
+ * Zephyrus
+ * Zeus
+
+
+
 
 ## References
 
 * http://xahlee.info/comp/unicode_index.html
 * https://unix.stackexchange.com/questions/126630/creating-diagrams-in-ascii
+* https://en.wikipedia.org/wiki/Hebrew_alphabet
+* https://en.wikipedia.org/wiki/Unicode_and_HTML_for_the_Hebrew_alphabet
+* https://greekgodsandgoddesses.net/gods/
