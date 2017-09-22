@@ -129,7 +129,84 @@ Tav | ת
  * Zephyrus
  * Zeus
 
+## List of Roman Gods
 
+Primary:
+
+* Apollo
+* Bacchus
+* Ceres
+* Cupid
+* Diana
+* Fauna
+* Flora
+* Fortuna
+* Janus
+* Juno
+* Jupiter (Jove)
+* Mars
+* Mercury
+* Minerva
+* Neptune
+* Pluto
+* Saturn
+* Venus
+* Vesta
+* Vulcan
+
+Secondary:
+
+* Abundantia
+* Aesculapius
+* Aurora
+* Bubona
+* Candelifera
+* Carmenta
+* Clementia
+* Cloacina
+* Concordia
+* Cybele
+* Deverra
+* Discordia
+* Edesia
+* Epona
+* Fabulinus
+* Fama
+* Felicitas
+* Fides
+* Hercules
+* Hespera
+* Hippona
+* Honos
+* Invidia
+* Iris
+* Justitia
+* Juventas
+* Libertas
+* Libitina
+* Luna
+* Mithras
+* Muta
+* Necessita
+* Nemesis
+* Opis
+* Pax
+* Pietas
+* Pomona
+* Portunes
+* Proserpina
+* Sancus
+* Sol Invictus
+* Somnus
+* Sors
+* Spes
+* Tempestes
+* Tranquillitas
+* Trivia
+* Veritas
+* Victoria
+* Voluptas
+* Volturnus
 
 
 ## References
