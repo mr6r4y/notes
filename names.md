@@ -9,7 +9,7 @@ any meaning and are easy to remember. The bad thing is that their
 number is limited - combining hebrew and greek you can name around
 60 entities.
 
-Next I choose dieties from greek and roman mythology. Their count
+Next I choose deities from greek and roman mythology. Their count
 is greater than 60 but carry a meaning which is not desireble. On
 the other hand these names are familiar and easy to remember.
 
@@ -19,7 +19,6 @@ names with length between 4 and 6 letters from Roman, Greek or any
 other ethnic group that has:
 
 * easy english pronunciation
-* are not popular enough, and does not carry much meaning
 * easy to remember
 
 ## Alphabets
@@ -51,7 +50,8 @@ Chi | Tav
 Psi |
 Omega |
 
-## Dieties
+
+## Deities
 
 Letter | Greek | Primary Roman | Secondary Roman
 -------|------|---------------|----------------
@@ -97,6 +97,8 @@ Num | Cardinal | Ordinal | Root
 9  | Novem | Nonus | Non
 10 | Decem | Decimus | Decim
 
+
+
 ## People Names
 
 Letter | African | Latin | Germanic | Japanese
@@ -112,17 +114,17 @@ H |  | Honor, Horacio | Hamlet, Harry, Heidi, Helmut, Henry, Hilda, Hudson, Hugo
 I | Ife, Imari | Ignatia, Isa, Isabel, Izzy | Irma, Ives, Iveta, Ivona | Ichiro, Ikki, Itsuki, Izumi
 J | Jabari, Jaz | Julek, Julio, Justin | Jager, Jeff, Jerry |
 K | Kanye, Kofi, Kunto | Kai, Kalem, Kia, Kimo, Klara, Kliment | Karl, Karolina, Konrad, Kramer | Katsumi, Kobe, Kosuke
-L | Lekan, Lerato | Lamar, Larkin, Laura, Leon, Livia | Lance, Leonard, Liam, Linda, Ludvik, Luiza, Luther | 
-M | Makena, Masika, Mesi, Monifa | Magnus, Mandy, Marcel, Marcus, Marius, Maximus, Myra | Matilda, Milo, Mina | Mao, 
+L | Lekan, Lerato | Lamar, Larkin, Laura, Leon, Livia | Lance, Leonard, Liam, Linda, Ludvik, Luiza, Luther |
+M | Makena, Masika, Mesi, Monifa | Magnus, Mandy, Marcel, Marcus, Marius, Maximus, Myra | Matilda, Milo, Mina | Mao
 N | Nakato, Nomusa, Nuru | Narda, Nero, Nova, Nydia | Nilda, Norman | Naoki, Nariko, Nozomi
-O | Obasi, Oni | Octavian, Onora, Ora, Ova, Ovid | Oberon, Oliver, Orlando, Oswald, Otto | 
+O | Obasi, Oni | Octavian, Onora, Ora, Ova, Ovid | Oberon, Oliver, Orlando, Oswald, Otto |
 P |  | Pablo, Paco, Pascal, Pasha, Patrik, Paula, Pavla, Perla, Proctor  | Perry |
 Q |  | Quentin |  |
 R | Rufaro, Rutendo | Randy, Remus, Renata, Renzo, Rex, Rita, Romano, Rufina | Ramon, Randy, Raul, Ricardo, Robert, Rocco, Rodrigo, Rolf, Ronaldo,  | Raiden, Ren
 S | Sade, Sauda, Sekai, Simba, Subira | Sabrina, Sage, Scipio, Severin, Sidra, Silvio | Saxon, Selma, Sigmund | Saburo, Sachi, Subaru
 T | Talib, Tuma | Tanya, Terra, Titus, Trinity | Terry, Truman, Tudor | Tadashi, Tamiko, Tatsuo, Toshiro
 U |  | Urbana, Ursula | Umberto | Umeko
-V |  | Vale, Venus, Vera, Vesta, Vicente, Vidal, Virgil, Vitus, Vivian | Valter, Vonda | 
+V |  | Vale, Venus, Vera, Vesta, Vicente, Vidal, Virgil, Vitus, Vivian | Valter, Vonda |
 W | Wekesa | Wikolia | Wagner, Warner, Wayland, Wilma, Wilson, Wolfgang |
 X |  |  |  |
 Y |  | Yolanda, Yustina |  | Yamato, Yoshi, Yosuke, Yuri
@@ -154,8 +156,9 @@ Z | Zaire, Zalika, Zuberi, Zula | Zetta, Zisel |  |
 * magenta
 * purple
 * indigo
-* violet 
-* ochre   
+* violet
+* ochre
+
 
 ## References
 
