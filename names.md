@@ -82,6 +82,21 @@ X |
 Y |
 Z | Zelus, Zephyrus, Zeus ||
 
+## Latin Numbers
+
+Num | Cardinal | Ordinal | Root
+----|----------|---------|-----
+1  | | Primus  | Prim
+2  | | Secundus | Secund
+3  | | Tertius | Terti
+4  | | Quartus | Quart
+5  | | Quintus | Quint
+6  | | Sextus | Sext
+7  | | Septimus | Septim
+8  | | Octavus | Octav
+9  | | Nonus | Non
+10 | | Decimus | Decim
+
 ## People Names
 
 Letter | African | Latin | Germanic | Japanese
