@@ -86,47 +86,76 @@ Z | Zelus, Zephyrus, Zeus ||
 
 Num | Cardinal | Ordinal | Root
 ----|----------|---------|-----
-1  | | Primus  | Prim
-2  | | Secundus | Secund
-3  | | Tertius | Terti
-4  | | Quartus | Quart
-5  | | Quintus | Quint
-6  | | Sextus | Sext
-7  | | Septimus | Septim
-8  | | Octavus | Octav
-9  | | Nonus | Non
-10 | | Decimus | Decim
+1  | Unus | Primus  | Prim
+2  | Duo | Secundus | Secund
+3  | Tres | Tertius | Terti
+4  | Quattuor | Quartus | Quart
+5  | Quinque | Quintus | Quint
+6  | Sex | Sextus | Sext
+7  | Septen | Septimus | Septim
+8  | Octo | Octavus | Octav
+9  | Novem | Nonus | Non
+10 | Decem | Decimus | Decim
 
 ## People Names
 
 Letter | African | Latin | Germanic | Japanese
 -------|---------|-------|----------|---------
 A | Adisa, Akachi, Amara, Arusi, Ashanti | Ace, Adria, Amadeo, Ange, Anton | Ada, Adele, Akela, Alfred, Amory | Akio, Akira
-B | Berko, Bongani, Bosede, Baako | Balaz, Basil, Bella, Benita, Benz, Bras | Bach, Berman, Berta, Bianca, Bogart |
-C | Cayman, Chipo, Chikere | Caesar, Callum, Candida, Cato, Cicero |  |
-D | Dada, Delu, Desta, Dubaku | Dante, Dea, Decima, Destin, Diva, Dominic |  |
-E | Ebele, Ekene, Emem | Elba, Emil, Erroll, Estela |  |
-F | Femi, Furaha | Fabia, Faust, Felicia, Felix, Fidel, Floris, Franco |  |
-G |  | Galo, Gemini, Gina, Graciela, Gusta |  |
-H |  | Honor, Horacio |  |
-I | Ife, Imari | Ignatia, Isa, Isabel, Izzy |  |
-J | Jabari, Jaz | Julek, Julio, Justin |  |
-K | Kanye, Kofi, Kunto | Kai, Kalem, Kia, Kimo, Klara, Kliment |  |
-L | Lekan, Lerato | Lamar, Larkin, Laura, Leon, Lian, Livia |  |
-M | Makena, Masika, Mesi, Monifa | Magnus, Mandy, Marcel, Marcus, Marius, Mark, Myra |  |
-N | Nakato, Nomusa, Nuru | Narda, Nero, Nova, Nydia |  |
-O | Obasi, Oni | Octavian, Onora, Ora, Ova, Ovid |  |
-P |  | Pablo, Paco, Pascal, Pasha, Patrik, Paula, Pavla, Perla, Proctor  |  |
+B | Berko, Bongani, Bosede, Baako | Balaz, Basil, Bella, Benita, Benz, Bras | Bach, Berman, Berta, Bianca, Bogart, Bruno, Burke |
+C | Cayman, Chipo, Chikere | Caesar, Callum, Candida, Cato, Cicero | Carla, Charlie, Chuck, Clovis, Conrad, Curt |
+D | Dada, Delu, Desta, Dubaku | Dante, Dea, Decima, Destin, Diva, Dominic | Derek, Dixon, Dolph | Daisuke
+E | Ebele, Ekene, Emem | Elba, Emil, Erroll, Estela | Earnest, Edlyn, Elke, Elvira, Emma, Enzo, Ernesto, Evette | Eito
+F | Femi, Furaha | Fabia, Faust, Felicia, Felix, Fidel, Floris, Franco | Fedor, Fernando, Frank, Fred, Frodo | Fumihiro
+G |  | Galo, Gemini, Gina, Graciela, Gusta | Gary, Gerald, Gerda, Gilbert, Guido, Gustav | Giichi
+H |  | Honor, Horacio | Hamlet, Harry, Heidi, Helmut, Henry, Hilda, Hudson, Hugo | Hansuke, Haruki, Hirohito, Hisato, Hitoshi
+I | Ife, Imari | Ignatia, Isa, Isabel, Izzy | Irma, Ives, Iveta, Ivona | Ichiro, Ikki, Itsuki, Izumi
+J | Jabari, Jaz | Julek, Julio, Justin | Jager, Jeff, Jerry |
+K | Kanye, Kofi, Kunto | Kai, Kalem, Kia, Kimo, Klara, Kliment | Karl, Karolina, Konrad, Kramer | Katsumi, Kobe, Kosuke
+L | Lekan, Lerato | Lamar, Larkin, Laura, Leon, Livia | Lance, Leonard, Liam, Linda, Ludvik, Luiza, Luther | 
+M | Makena, Masika, Mesi, Monifa | Magnus, Mandy, Marcel, Marcus, Marius, Maximus, Myra | Matilda, Milo, Mina | Mao, 
+N | Nakato, Nomusa, Nuru | Narda, Nero, Nova, Nydia | Nilda, Norman | Naoki, Nariko, Nozomi
+O | Obasi, Oni | Octavian, Onora, Ora, Ova, Ovid | Oberon, Oliver, Orlando, Oswald, Otto | 
+P |  | Pablo, Paco, Pascal, Pasha, Patrik, Paula, Pavla, Perla, Proctor  | Perry |
 Q |  | Quentin |  |
-R | Rufaro, Rutendo | Randy, Remus, Renata, Renzo, Rex, Rita, Romano, Rufina |  |
-S | Sade, Sauda, Sekai, Simba, Subira | Sabrina, Sage, Scipio, Septima, Severin, Sidra, Silvio |  |
-T | Talib, Tuma | Tad, Tanya, Terra, Titus, Trinity |  |
-U |  | Una, Urbana, Ursula |  |
-V |  | Vale, Venus, Vera, Vesta, Vicente, Vidal, Virgil, Vit, Vitus, Vivian |  |
-W | Wekesa | Wikolia |  |
+R | Rufaro, Rutendo | Randy, Remus, Renata, Renzo, Rex, Rita, Romano, Rufina | Ramon, Randy, Raul, Ricardo, Robert, Rocco, Rodrigo, Rolf, Ronaldo,  | Raiden, Ren
+S | Sade, Sauda, Sekai, Simba, Subira | Sabrina, Sage, Scipio, Severin, Sidra, Silvio | Saxon, Selma, Sigmund | Saburo, Sachi, Subaru
+T | Talib, Tuma | Tanya, Terra, Titus, Trinity | Terry, Truman, Tudor | Tadashi, Tamiko, Tatsuo, Toshiro
+U |  | Urbana, Ursula | Umberto | Umeko
+V |  | Vale, Venus, Vera, Vesta, Vicente, Vidal, Virgil, Vitus, Vivian | Valter, Vonda | 
+W | Wekesa | Wikolia | Wagner, Warner, Wayland, Wilma, Wilson, Wolfgang |
 X |  |  |  |
-Y |  | Yolanda, Yustina |  |
+Y |  | Yolanda, Yustina |  | Yamato, Yoshi, Yosuke, Yuri
 Z | Zaire, Zalika, Zuberi, Zula | Zetta, Zisel |  |
+
+## Colors
+
+* white
+* silver
+* gray
+* black
+* navy
+* blue
+* turquoise
+* azure
+* teal
+* cyan
+* green
+* lime
+* olive
+* yellow
+* gold
+* amber
+* orange
+* brown
+* red
+* maroon
+* pink
+* magenta
+* purple
+* indigo
+* violet 
+* ochre   
 
 ## References
 
