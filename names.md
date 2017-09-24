@@ -28,7 +28,9 @@ Object | Represented By
 Functions | Start names of not analyzed funcs with `ufcn.*`
 Functions | Name funcs with people names
 Local Vars | Use greek alphabet for local vars
-Global Vars | Start names of globals with `global.[<type: struct, int, etc.>.]*`
+Global Vars | Start names of globals with `global.*`
+Global Refs | Make difference between vars and refs. Refs appear and are used in code as integer constants. Vars are first referred in memory and then used.
+Global Refs | Start names of global refs with `globalref.*`
 Global Vars | Name globals with names of countries
 
 
