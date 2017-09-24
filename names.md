@@ -20,6 +20,17 @@ other ethnic group that has:
 
 * easy english pronunciation
 * easy to remember
+ 
+## Conventions
+
+Object | Represented By
+-------|---------------
+Functions | Start names of not analyzed funcs with `ufcn.*`
+Functions | Name funcs with people names
+Local Vars | Use greek alphabet for local vars
+Global Vars | Start names of globals with `global.[<type: struct, int, etc.>.]*`
+Global Vars | Name globals with names of countries
+
 
 ## Alphabets
 
@@ -129,6 +140,75 @@ W | Wekesa | Wikolia | Wagner, Warner, Wayland, Wilma, Wilson, Wolfgang |
 X |  |  |  |
 Y |  | Yolanda, Yustina |  | Yamato, Yoshi, Yosuke, Yuri
 Z | Zaire, Zalika, Zuberi, Zula | Zetta, Zisel |  |
+
+
+## People Names 2
+
+Letter | Women | Man
+-------|-------|----
+A | Anna, Andrea, Anabel, Amanda, Adisa, Adelina, Ada,  | Anton, Adrian, Amadeos, Alfred, Adolf
+B | Biliana, Bella, Berta, Benita, Bianca | Boris, Barko, Boyan, Bogdan, Branimir, Bratan, Bruno, Bogart, Berko, Bogani, Bach
+C | Carla, Clovis, Candida, Ceca | Caesar, Cato, Ciceron, Chuck, Conrad, Curt, Cvetan, Charlie
+D | Desi, Darina, Doris, Diva, Dimana, Dobrinka, Diana, Daria, Donka | Dobrin, Dido, Damiyan
+E | Elena | Emil
+F |  | Filip
+G |  | Gabriel, Gosho, Grigor
+H |  |
+I |  | Ivan
+J |  | Jeremy
+K |  |
+L |  |
+M |  |
+N |  |
+O |  |
+P |  |
+Q |  |
+R |  |
+S |  |
+T |  |
+U |  |
+V |  |
+W |  |
+X |  |
+Y |  |
+Z |  |
+
+## Countries
+
+Letter | Country
+-------|--------
+A | Afghanistan, Albania, Algeria, Andorra, Angola, Anguilla, Antigua, Argentina, Armenia, Australia, Austria, Azerbaijan
+B | Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia & Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burma, Burundi, Barbuda
+C | Cambodia, Cameroon, Canada, Cape Verde, Cayman Islands, Central African Republic, Chad, Chile, China, Colombia, Comoros, Congo, Costa Rica, Croatia, Cuba, Cyprus, Czech Republic,
+D | Denmark, Djibouti, Dominican Republic, Dominica
+E | Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia
+F | Fiji, Finland, France, French Guiana
+G | Gabon, Gambia, Georgia, Germany, Ghana, Great Britain, Greece, Grenada, Guadeloupe, Guatemala, Guinea, Guinea-Bissau, Guyana, Grenadines
+H | Haiti, Honduras, Hungary
+I | Iceland, India, Indonesia, Iran, Iraq, Israel, Italy, Ivory Coast
+J | Jamaica, Japan, Jordan
+K | Kazakhstan, Kenya, Kosovo, Kuwait, Kyrgyzstan
+L | Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg
+M | Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar
+N | Namibia, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Korea, Norway
+O | Oman
+P | Pacific Islands, Pakistan, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico
+Q | Qatar
+R | Romania, Russia, Rwanda
+S | Samoa, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Korea, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Sao Tome And Principe, Saint Kitts and Nevis, Saint Lucia, Saint Vincent
+T | Tajikistan, Tanzania, Thailand, Timor Leste, Togo, Trinidad, Tobago, Tunisia, Turkey, Turkmenistan
+U | Uganda, Ukraine, United Arab Emirates, USA, Uruguay, Uzbekistan
+V | Venezuela, Vietnam, Virgin Islands
+W |
+X |
+Y | Yemen
+Z | Zambia, Zimbabwe
+
+## Capitals
+
+Letter | Capital City
+-------|-------------
+
 
 ## Colors
 
