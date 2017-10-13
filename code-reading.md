@@ -123,7 +123,8 @@ has to address this delocalization.
 
 * Control flow diagram (Call graph)
 * Data flow diagram
-* Cross-reference calculation
+* Cross-reference listing
+* Structure chart
 * Coupling metrics:
     * interaction coupling
     * component coupling
