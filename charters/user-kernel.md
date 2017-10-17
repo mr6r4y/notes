@@ -20,6 +20,10 @@ to discover:
 
 Read [Linux Inside: Booting: First steps in the kernel setup](https://0xax.gitbooks.io/linux-insides/content/Booting/linux-bootstrap-2.html)
 
+#### Note
+
+
+
 ### 1.3 ✔
 
 Read [Minimal Boot Loader](https://www.cs.cmu.edu/~410/doc/minimal_boot.pdf)
