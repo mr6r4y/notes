@@ -110,7 +110,7 @@ has to address this delocalization.
 * **Typographic factors**: Typographic factors include font, color-coding of keywords or other programming entities, usage of white space and indentation, etc
 * **Environmental factors**: Environmental factors are meant to contain anything else, e.g., the lighting in the reading spot, the integrated development environment (IDE), etc
 
-### Simple Rules
+### Simple Rules fpr Code Readability
 
 * Pick a coding standard
 * Add comments to the code and keep the comments up to date
@@ -124,22 +124,52 @@ has to address this delocalization.
 * Control flow diagram (Call graph)
 * Data flow diagram
 * Cross-reference listing
+    * Where a specific function is used throughout the code and where it is defined
+    * Count of references and sorting by reference count of functions/methods/classes
 * Structure chart
 * Coupling metrics:
     * interaction coupling
     * component coupling
     * inheritance coupling
+* Generate build from that source
+* Implement/use tracers - produce a tracer log on some chosen condition
+    * Keep a list with the exact positions where tracing code is added
+* Regex Patterns (to make list of interesting patterns to be searched in the source code)
+    * Aspect browsing and visualization of where patterns occur - example [AspectBrowser](http://cseweb.ucsd.edu/~wgg/Software/AB/)
+* Signatures - [Ward Cunningham’s Signature Survey method](http://c2.com/doc/SignatureSurvey/)
 
 ## Topics for Research
 
 * Program slicing - mental and automated by tools
+* Tracers and trace logs
+* [Ward Cunningham’s Signature Survey method](http://c2.com/doc/SignatureSurvey/)
+* [Source Code Comprehension Tools](http://www.grok2.com/code_comprehension.html)
 
-## Software Tools
+## Tools and Techniques from [Software Archeology](https://toolshed.com/articles/mar_02_archeology.pdf)
 
-## Mental Tools
+The workshop identified these analysis tools and techniques:
+* Scripting languages for
+    * ad hoc programs to build static reports (included by and so on) 
+    * filtering diagnostic output
+* Ongoing documentation in basic HTML pages or Wikis
+* Synoptic signature analysis, statistical analysis, and visualization tools
+* Reverse-engineering tools such as Together’s ControlCenter
+* Operating-system-level tracing via trussand strace 
+* Web search engines and tools to search for keywords in source files
+* IDE file browsing to flatten out deep directory hierarchies of the source
+* Test harnesses such as Junit and CPPUnit
+* API documentation generation using Javadoc, doxygen, and so on
+* Debuggers
+
+Participants also identified these invasive tools:
+* Hand-inserted trace statements
+* Built-in diagnostic instrumentation, enabled in production code as well
+* Instrumentation to log history of data values at interface calls
+* Use of AspectJ to introduce otherwise invasive changes safely
 
 
 ## References
 
 * [Code Reading Techniques](http://www.apress.com/la/book/9781484223451)
+* [Software Archeology](https://toolshed.com/articles/mar_02_archeology.pdf)
 
