@@ -55,6 +55,9 @@ def main():
 
     plg.arrow(d_includes, ["binheap.c", "r_binheap.h", "r_vector.h", "r_types.h"])
     plg.arrow(d_includes, ["r_types.h", ["r_userconf.h", "<r_endian.h>", "r_util/r_str_util.h", "<sys/param.h>",
+                                         "<r_types_base.h>",
+                                         "<sys/types.h>", "<sys/stat.h>", "<dirent.h>", "<unistd.h>",
+                                         "<sys/time.h>",
                                          "<winsock2.h>", "<windows.h>", "<stdio.h>", "<string.h>", "<stdlib.h>",
                                          "<stdarg.h>", "<fcntl.h>"]])
     plg.arrow(d_includes, ["r_vector.c", "r_vector.h"])
