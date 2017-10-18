@@ -130,6 +130,10 @@ has to address this delocalization.
     * component coupling
     * inheritance coupling
 
+## Topics for Research
+
+* Program slicing - mental and automated by tools
+
 ## Software Tools
 
 ## Mental Tools
