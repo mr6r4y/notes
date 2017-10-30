@@ -25,9 +25,9 @@ take notes
 Chapter | Done
 --------|-----
 Ch 1 | ✔
-Ch 2 |
-Ch 3 |
-Ch 4 |
+Ch 2 | ✔
+Ch 3 | ✔
+Ch 4 | ✔
 Ch 5 |
 Ch 6 |
 Ch 7 |
