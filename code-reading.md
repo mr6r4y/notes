@@ -167,6 +167,18 @@ Participants also identified these invasive tools:
 * Instrumentation to log history of data values at interface calls
 * Use of AspectJ to introduce otherwise invasive changes safely
 
+## Charters
+
+### C-1
+
+Write a script that can parse all files under specified directory
+and map all `.h` and `#include ..` in a way so that you can produce:
+* a include graph of every `.c`, `.h` file from the project (some simple heuristics needed)
+* inclusion of outside libraries in `<..>` under separate cluster
+
+### C-2
+
+Write script that can check flow of `char *` and see if there is check for `NULL` missing down the line
 
 ## References
 

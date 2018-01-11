@@ -18,6 +18,9 @@ def main():
 
     d_structs.edge("h1:a", "h2:RBinHeap")
 
+
+
+
     d_funcs = gv.Digraph(name="cluster_funcs")
     d_funcs.attr(label="Function CFG")
     # graph_attr["splines"] = "ortho"
@@ -50,17 +53,25 @@ def main():
     d_funcs.edge("r_vector_clear", "R_FREE")
     plg.arrow(d_funcs, ["r_vector_clone", ["R_NEW", "malloc", "R_FREE", "memcpy"]])
 
+
+
     d_includes = gv.Digraph(name="cluster_includes")
     d_includes.attr(label="Includes")
 
-    plg.arrow(d_includes, ["binheap.c", "r_binheap.h", "r_vector.h", "r_types.h"])
-    plg.arrow(d_includes, ["r_types.h", ["r_userconf.h", "<r_endian.h>", "r_util/r_str_util.h", "<sys/param.h>",
-                                         "<r_types_base.h>",
-                                         "<sys/types.h>", "<sys/stat.h>", "<dirent.h>", "<unistd.h>",
-                                         "<sys/time.h>",
-                                         "<winsock2.h>", "<windows.h>", "<stdio.h>", "<string.h>", "<stdlib.h>",
-                                         "<stdarg.h>", "<fcntl.h>"]])
+    plg.arrow(d_includes, ["binheap.c", "r_binheap.h", "r_vector.h", "<r_types.h>"])
+    plg.arrow(d_includes, ["<r_types.h>", ["r_userconf.h", "<r_endian.h>", "r_util/r_str_util.h", "<sys/param.h>",
+                                           "<r_types_base.h>",
+                                           "<sys/types.h>", "<sys/stat.h>", "<dirent.h>", "<unistd.h>",
+                                           "<sys/time.h>",
+                                           "<winsock2.h>", "<windows.h>", "<stdio.h>", "<string.h>", "<stdlib.h>",
+                                           "<stdarg.h>", "<fcntl.h>"]])
     plg.arrow(d_includes, ["r_vector.c", "r_vector.h"])
+
+    plg.arrow(d_includes, ["sandbox.c", "<r_util.h>", ["<r_types.h>", "<r_diff.h>", "<btree.h>",
+                                                       "<r_regex.h>", "<r_list.h>", "<r_skiplist.h>",
+                                                       "<r_flist.h>", "<r_th.h>"]])
+
+
 
     d = gv.Digraph()
     # d.graph_attr["splines"] = "ortho"

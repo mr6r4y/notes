@@ -1,5 +1,13 @@
 # Code Reading - radare2 project
 
+## Legend
+
+Symbol/Abbr. | Description
+-------------|------------
+✔ | Finished
+❌ | Rejected / Not done
+
+
 # Info
 
 # Charters
@@ -48,7 +56,7 @@ Deeper look at:
 * purpose of `run_call*` functions:
     * used by `rarun2` in the `switch case` of `r_run_start()` (used for calling library function with different number of arguments)
 
-## 1.1.1
+## 1.1.1 ✔
 
 Go through `r_sys.h` and `libr/util/sys.c`
 
@@ -59,9 +67,27 @@ Go through `r_sys.h` and `libr/util/sys.c`
 * use of structs implemented in `sftypes.h` - http://www.secdev.org/projects/shellforge/
 * `r_sys_run` is not using `fork`
 
-## 1.1.1.3
+## 1.1.1.3 ✔
 
-Go through `r_sandbox.h` and `util/sandbox.c` 
+Go through `r_sandbox.h` and `util/sandbox.c`
+
+### Note
+
+Sandboxes file access to be unter paths that are below RADARE data/www/etc. directories.
+
+* `!strncmp(..)` returns 1 (true) if strings are equal cause `strncmp` returns 0 on string equality
+
+## 1.1.1.3.1
+
+Go through `libr/util/str.c`
+
+### Note
+
+* `r_str_home(..)` can result in `NULL` and must trace callers if they check for `NULL`
+
+## 1.1.1.3.2
+
+Go through `lbir/util/file.c`
 
 ## 1.1.1.2
 
@@ -71,7 +97,7 @@ Go through `libr/include/sflib/common/sftypes.h`
 
 Go through `r_list.h` and `util/list.c`
 
-## 1.1.2
+## 1.1.2 ✔
 
 Read `r_endian.h`
 
@@ -81,7 +107,7 @@ Read `r_endian.h`
 * functions for "secure" add,mul,div,sub
 * basic block used by `libr/reg`, `libr/asm/arch`, etc.
 
-## 1.1.3
+## 1.1.3 ✔
 
 Read `r_str_util.h`
 
