@@ -73,7 +73,7 @@ Go through `r_sandbox.h` and `util/sandbox.c`
 
 ### Note
 
-Sandboxes file access to be unter paths that are below RADARE data/www/etc. directories.
+Sandboxes file access to be under paths that are below RADARE data/www/etc. directories.
 
 * `!strncmp(..)` returns 1 (true) if strings are equal cause `strncmp` returns 0 on string equality
 
