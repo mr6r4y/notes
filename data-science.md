@@ -15,8 +15,9 @@
     * Statistics Done Wrong (optional)
     * Discovering Statistics Using R (optional)
 1. Go into AI:
-    * Hands-On Machine Learning with Scikit-Learn and TensorFlow
-    * Deep Learining with Python (Manning)
+    * Hands-On Machine Learning with Scikit-Learn and TensorFlow (in progress)
+    * Deep Learining with Python (Manning) (in progress)
+    * Do the https://www.kaggle.com/c/titanic
     * See The Connection between Competitive Informatics and AI/ML
     * AI with Python (Packt)
     * Deep Learning with Python (video) (Packt)
@@ -25,8 +26,6 @@
 1. Have several data science projects and make AI/ML PoC (extended (3))
 1. Explore options to apply AI/ML in current QA automation approach.
 
-ML:
-> Ability for a machine to understand an environment, perform “intelligent” actions, and learn how to improve itself automatically.
 
 ## The Connection between Competitive Informatics and AI/ML
 
@@ -46,3 +45,13 @@ Some other resources (challenge sites and resource sites):
 * https://www.quora.com/What-are-the-most-interesting-online-AI-competitions
 * https://www.hackerearth.com/problem/multiplayer/hex/
 * http://theaigames.com/
+
+## ML and AI resources
+
+* https://www.coursera.org/learn/machine-learning/ - heavy course
+* https://www.coursera.org/learn/neural-networks - heavy course
+* http://scikit-learn.org/stable/user_guide.html -  Scikit-learn user guide
+* https://www.dataquest.io/ - ML learning platform
+* http://deeplearning.net/ - Deep Learning resources
+* https://www.kaggle.com/ - ML learning and collaboration platform
+* https://www.quora.com/What-are-the-best-regularly-updated-machine-learning-blogs-or-resources-available
