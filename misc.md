@@ -111,6 +111,12 @@ host github.com
  User git
 ```
 
+## Making a partition with high number of inodes
+
+```
+mkfs.ext4 -T news /dev/<part>
+```
+
 # RE Misc
 
 ## Compilation date and environment info for ELF
