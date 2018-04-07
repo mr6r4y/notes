@@ -65,4 +65,4 @@ Some other resources (challenge sites and resource sites):
 * http://deeplearning.net/ - Deep Learning resources
 * https://www.kaggle.com/ - ML learning and collaboration platform
 * https://www.quora.com/What-are-the-best-regularly-updated-machine-learning-blogs-or-resources-available
->>>>>>> 787cb852b6bdca923c525b8da3d7ac10c926f0fe
+
