@@ -1,0 +1,11 @@
+digraph {
+    node [shape=box]
+
+    subgraph cluster_funcs {
+        label="Function CFG"
+
+        main_if -> {get_args setup add_target add_tlds get_nameservers get_txt get_v6 get_mx get_wildcard}
+        setup -> "dns.resolver.Resolver"
+    }
+    
+}

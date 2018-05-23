@@ -167,6 +167,13 @@ Participants also identified these invasive tools:
 * Instrumentation to log history of data values at interface calls
 * Use of AspectJ to introduce otherwise invasive changes safely
 
+## Primer for Code Reading Practice
+
+* Read code and take notes in a `.md` file
+* Structure notes as Charters with Notes
+* Try to memorize function names and CFG
+* In a `.dot` file try to create the CFG and data flow from memory
+
 ## Charters
 
 ### C-1
