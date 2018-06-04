@@ -34,9 +34,14 @@ Read code of [dnspython](https://github.com/rthalley/dnspython) library
 
 Read articles:
 
-* https://security.stackexchange.com/questions/10452/dns-zone-transfer-attack
+* https://security.stackexchange.com/questions/10452/dns-zone-transfer-attack ✔
 * https://en.wikipedia.org/wiki/DNS_zone_transfer
 * https://en.wikipedia.org/wiki/Wildcard_DNS_record
+
+## 1.2.1
+
+* https://www.sans.org/reading-room/whitepapers/dns/securing-dns-zone-transfer-868
+* https://digi.ninja/projects/zonetransferme.php
 
 ## 1.3
 
