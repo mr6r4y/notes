@@ -1,11 +1,13 @@
 digraph {
     node [shape=box]
+    graph [splines=ortho]
 
     subgraph cluster_funcs {
         label="Function CFG"
 
-        main_if -> {get_args setup add_target add_tlds get_nameservers get_txt get_v6 get_mx get_wildcard}
+        main_if -> {output get_args setup add_target add_tlds get_nameservers get_txt get_v6 get_mx get_wildcard zone_transfer "queue.put" scanner}
         setup -> "dns.resolver.Resolver"
+        zone_transfer -> {"dns.zone.from_xfr" "dns.query.xfr" }
+        get_mx -> {"re.search" "queue.put" lookup}
     }
-    
 }

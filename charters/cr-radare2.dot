@@ -1,0 +1,63 @@
+digraph {
+	node [shape=box]
+	subgraph cluster_structs {
+		node [shape=record]
+		label=structs
+		v1 [label="{<RVector> RVector | {<a> void **a | <len> len | <capacity> capacity}}"]
+		h1 [label="{<RBinHeap> RBinHeap | {{<RVector> RVector | {<a> void **a | <len> len | <capacity> capacity}} | <cmp> int (*cmp)(const void *a, const void *b)}}"]
+		h2 [label="{<RBinHeap> RBinHeap | {{<RVector> RVector | {<a> void **a | <len> len | <capacity> capacity}} | <cmp> int (*cmp)(const void *a, const void *b)}}"]
+		h1:a -> h2:RBinHeap
+	}
+	subgraph cluster_funcs {
+		label="Function CFG"
+		R_NEW [label="#define R_NEW(x) (x*)malloc(sizeof(x))"]
+		r_binheap_clear -> r_vector_clear
+		r_binheap_init -> r_vector_init
+		r_binheap_new -> R_NEW
+		r_binheap_pop -> _heap_down
+		r_binheap_push -> r_vector_push
+		r_vector_push -> _heap_up
+		R_NEW0 [label="#define R_NEW0(x) (x*)calloc(1,sizeof(x))"]
+		RESIZE_OR_RETURN_NULL [label="#define RESIZE_OR_RETURN_NULL(next_capacity) do { \\\l        int new_capacity = next_capacity; \\\l        void **new_a = realloc (vec-&gt;a, sizeof(void *) * new_capacity); \\\l        if (!new_a) { \\\l            return NULL; \\\l        } \\\l        vec-&gt;a = new_a; \\\l        vec-&gt;capacity = new_capacity; \\\l    } while (0)"]
+		NEXT_VECTOR_CAPACITY [label="#define NEXT_VECTOR_CAPACITY (vec-&gt;capacity &lt; INITIAL_VECTOR_LEN \\\l    ? INITIAL_VECTOR_LEN \\\l    : vec-&gt;capacity &lt;= 12 ? vec-&gt;capacity * 2 \\\l    : vec-&gt;capacity + (vec-&gt;capacity &gt;&gt; 1))"]
+		R_FREE [label="#define R_FREE(x) { free(x); x = NULL; }"]
+		r_vector_clear -> R_FREE
+		r_vector_clone -> R_NEW
+		r_vector_clone -> malloc
+		r_vector_clone -> R_FREE
+		r_vector_clone -> memcpy
+	}
+	subgraph cluster_includes {
+		label=Includes
+		"binheap.c" -> "r_binheap.h"
+		"r_binheap.h" -> "r_vector.h"
+		"r_vector.h" -> "&lt;r_types.h&gt;"
+		"&lt;r_types.h&gt;" -> "r_userconf.h"
+		"&lt;r_types.h&gt;" -> "&lt;r_endian.h&gt;"
+		"&lt;r_types.h&gt;" -> "r_util/r_str_util.h"
+		"&lt;r_types.h&gt;" -> "&lt;sys/param.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;r_types_base.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;sys/types.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;sys/stat.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;dirent.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;unistd.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;sys/time.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;winsock2.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;windows.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;stdio.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;string.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;stdlib.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;stdarg.h&gt;"
+		"&lt;r_types.h&gt;" -> "&lt;fcntl.h&gt;"
+		"r_vector.c" -> "r_vector.h"
+		"sandbox.c" -> "&lt;r_util.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_types.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_diff.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;btree.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_regex.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_list.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_skiplist.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_flist.h&gt;"
+		"&lt;r_util.h&gt;" -> "&lt;r_th.h&gt;"
+	}
+}
