@@ -131,30 +131,4 @@ objdump -s --section .comment /path/binary
 yara -w /opt/repo/yara-rules/index.yar /bin/true
 ```
 
-## GDB - set local libc to be load instead default one
-
-```
-(gdb) set environment LD_PRELOAD=./libc.so.6
-```
-
-## GDB - Interacting with programs using `read()` in complex cmd menus
-
-First set up a FIFO for process' STDIN:
-
-    $> mkfifo p.in
-
-Then in the debugger run the process as:
-
-    (gdb) run < p.in
-
-The FIFO is ready to take input from a python script. The script
-should interact with FIFO by `open()`:
-
-```python
-f = open("p.in", "w")
-f.write("1")
-f.flush()
-f.write("a" * 20)
-f.flush()
-```
 
