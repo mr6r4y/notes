@@ -44,6 +44,7 @@ Include this in document instead of previous. This includes a package for verbat
 
 Latex beamer style for coloring the HREFs:
 
+    \usepackage{xcolor}
     \definecolor{links}{HTML}{2A1B81}
     \hypersetup{colorlinks,linkcolor=,urlcolor=links}
 
