@@ -77,6 +77,13 @@ Add the following line in /etc/sudoers
 ssh-keygen -t rsa -C ansadm
 ```
 
+## Enable traffic forwarding and NAT
+
+```
+sudo bash -c 'echo 1 > /proc/sys/net/ipv4/ip_forward'
+sudo bash -c 'echo 1 > /proc/sys/net/ipv4/ip_dynaddr'
+```
+
 ## Tools for Markdown format
 
 ```
