@@ -84,6 +84,15 @@ sudo bash -c 'echo 1 > /proc/sys/net/ipv4/ip_forward'
 sudo bash -c 'echo 1 > /proc/sys/net/ipv4/ip_dynaddr'
 ```
 
+## Iptables NAT
+
+```
+iptables -t nat -A POSTROUTING -d 0/0 -s <NET-TO-BE-FORWARDED>/24 -j MASQUERADE
+iptables -A FORWARD -s <NET-TO-BE-FORWARDED>/24 -d 0/0 -j ACCEPT
+iptables -A FORWARD -s 0/0 -d <NET-TO-BE-FORWARDED>/24 -j ACCEPT
+
+```
+
 ## Tools for Markdown format
 
 ```
