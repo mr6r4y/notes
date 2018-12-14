@@ -32,5 +32,4 @@
     	- `git clone https://github.com/raesene/TestingScripts/` in `/opt/repo`
 1. Hashcat:
 	- needs `install-opencl.sh`
-1. 
 1. Bring back system ruby because installed metasploit breaks - `rvm set system`
