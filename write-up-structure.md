@@ -5,5 +5,5 @@
 | challenge origin | |
 | assignment details | |
 | solution | |
-| Charters | |
-| References | |
+| charters | |
+| references | |
